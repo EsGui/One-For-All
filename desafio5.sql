@@ -13,6 +13,8 @@ ON
 	cancoes.cancoes_id = reproduz_uni.cancoes_id
 GROUP BY
 	cancoes.musics
+HAVING
+	COUNT(users.usuario) = 2
 ORDER BY
 	COUNT(users.usuario) DESC,
     cancoes.musics ASC;
