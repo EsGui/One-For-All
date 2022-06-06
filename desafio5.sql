@@ -14,4 +14,5 @@ ON
 GROUP BY
 	cancoes.musics
 ORDER BY
-	COUNT(users.usuario) DESC;
+	COUNT(users.usuario) DESC,
+    cancoes.musics ASC;
