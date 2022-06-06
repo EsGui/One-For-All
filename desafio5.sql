@@ -17,4 +17,5 @@ HAVING
 	COUNT(users.usuario) = 2
 ORDER BY
 	COUNT(users.usuario) DESC,
-    cancoes.musics ASC;
+    cancoes.musics ASC
+LIMIT 2;
