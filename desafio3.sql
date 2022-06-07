@@ -9,7 +9,7 @@ INNER JOIN
 ON
 	reproduz_uni.usuario_id = users.usuario_id
 INNER JOIN
-	SpotifyClone.cancoes As cancoes
+	SpotifyClone.cancoes AS cancoes
 ON
 	cancoes.cancoes_id = reproduz_uni.cancoes_id
 GROUP BY
